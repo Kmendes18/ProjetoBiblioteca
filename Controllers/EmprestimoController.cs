@@ -3,12 +3,15 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System;
+using X.PagedList;
 
 namespace Biblioteca.Controllers
 {
     
     public class EmprestimoController : Controller
     {
+        //private object db;
+
         public IActionResult Cadastro()        
         {       
             Autenticacao.CheckLogin(this); 
@@ -63,5 +66,11 @@ namespace Biblioteca.Controllers
             
             return View(cadModel);
         }
+
+       // public AcceptedResult Listagem(int pagina = 1)
+        //{
+          //  var emprestimo = db.Emprestimos.orderBy(e => e.id).ToPagedList(emprestimo, 10);
+            //return View (emprestimo);
+        //}
     }
 }

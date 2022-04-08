@@ -104,3 +104,11 @@ C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug
 C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroSucesso.cshtml.g.cs
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ExcluirUsuario.cshtml.g.cs
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Listagem.cshtml.g.cs
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\bin\Debug\netcoreapp3.1\X.PagedList.dll
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroUsuario.cshtml.g.cs
+C:\Users\Kleber\Desktop\Curso Web\MODULO 2\UC 7\Atividade 2\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ConfirmacaoExclusao.cshtml.g.cs

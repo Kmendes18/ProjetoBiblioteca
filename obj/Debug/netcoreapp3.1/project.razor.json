@@ -14402,6 +14402,16 @@
   "RootNamespace": "Biblioteca",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\EditarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\ExcluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
       "FileKind": "mvc"
@@ -14422,6 +14432,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario\\CadastroUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\CadastroUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
       "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -14434,6 +14449,11 @@
     {
       "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario\\Listagem.cshtml",
+      "TargetPath": "Views\\Usuario\\Listagem.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14467,8 +14487,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario\\ConfirmacaoExclusao.cshtml",
+      "TargetPath": "Views\\Usuario\\ConfirmacaoExclusao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kleber\\Desktop\\Curso Web\\MODULO 2\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario\\CadastroSucesso.cshtml",
+      "TargetPath": "Views\\Usuario\\CadastroSucesso.cshtml",
       "FileKind": "mvc"
     },
     {

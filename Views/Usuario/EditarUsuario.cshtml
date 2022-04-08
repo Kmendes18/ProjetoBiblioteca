@@ -1,0 +1,45 @@
+@model Usuario
+
+<div class="row justify-content-md-center">
+    <h1>Realize a Edição do Usuário</h1>
+</div>
+
+<div class="row justify-content-md-center">
+    <form asp-action="EditarUsuario" method="post" class="col-md-4">
+
+        <div class="form-group">
+            <label asp-for="nome">Nome</label>
+            <input asp-for="nome" class="form-control" type="text" name="nome" id="userNome" value="@Model.nome" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="login">Login</label>
+            <input asp-for="login" class="form-control" type="text" name="login" id="userLogin" value="@Model.login" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="senha">Senha</label>
+            <input asp-for="senha" class="form-control" type="text" name="senha" id="userSenha" value="@Model.senha" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Tipo">Tipo de Usuario</label>
+            <select asp-for="Tipo" name="Tipo" id="userTipo" class="form-control">
+
+                <option value="@Usuario.Admin">Administrador</option>
+
+                <option value="@Usuario.Padrao">Padrão</option>
+
+            </select>
+        </div>
+
+
+
+        <input type="hidden" asp-for="Id" />
+
+
+
+        <input type="submit" value="CONCLUIR EDIÇÃO" class="btn btn-primary" />
+
+    </form>
+</div>

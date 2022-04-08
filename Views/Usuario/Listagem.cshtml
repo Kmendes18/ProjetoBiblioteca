@@ -1,0 +1,61 @@
+@model List<Usuario>
+@{
+    ViewData["Title"] = "Listagem de Usuarios";
+}
+
+<div class="row justify-content-md-center">
+    <h1>Usuários cadastrados no sistema</h1>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table id="myTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Login</th>
+                    <th>Tipo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Usuario u in Model)
+                {
+                    <tr>
+                        <td>@u.nome</td>
+                        <td>@u.login</td>
+
+                        @if (u.Tipo == Usuario.Admin)
+                        {
+                            <td>Administrador</td>
+                        }
+                        else
+                        {
+                            <td>Padrão</td>
+                        }
+
+                        <td><a href="EditarUsuario?id=@u.Id" class="btn btn-primary">Editar</a></td>
+
+                        <td><a href="ExcluirUsuario?id=@u.Id" class="btn btn-primary">Excluir</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<h2>
+    <a href="CadastroUsuario">Registrar novo usuário</a>
+</h2>
+@section Scripts{
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
+            }
+        });
+    });
+</script>
+}
